@@ -1,0 +1,7 @@
+body{
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    word-break: keep-all; /* 컨텐츠 박스 밖으로 단어가 넘칠 때 단어 단위의 줄바꿈 처리 */
+}
+
