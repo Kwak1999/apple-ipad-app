@@ -62,6 +62,7 @@ header ul.menu > li > a:hover{
 
 /* Header / Menu / Basket */
 header .basket{
+    display: none;
     width: 290px;
     padding: 10px 20px;
     border: 1px solid #D2D2D2;
@@ -71,6 +72,9 @@ header .basket{
     position: absolute;
     top: calc(100% + 4px);
     right: -6px;
+}
+header .basket.show{
+    display: block;
 }
 /* 화살표 만들기 */
 header .basket .arrow {
