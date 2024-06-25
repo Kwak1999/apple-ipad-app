@@ -26,15 +26,17 @@ function hideBasket(){
     basketEl.classList.remove('show')
 }
 
-// 검색
+// 헤더 검색!
+// 헤더 검색 관련 요소 찾기.
 const headerEl = document.querySelector('header')
-const headerMenuEls = [...headerEl.querySelectorAll('ul.menu > li')] // 전개 연산
+const headerMenuEls = [...headerEl.querySelectorAll('ul.menu > li')]
 const searchWrapEl = headerEl.querySelector('.search-wrap')
 const searchStarterEl = headerEl.querySelector('.search-starter')
 const searchCloserEl = searchWrapEl.querySelector('.search-closer')
 const searchShadowEl = searchWrapEl.querySelector('.shadow')
 const searchInputEl = searchWrapEl.querySelector('input')
 const searchDelayEls = [...searchWrapEl.querySelectorAll('li')]
+// const duration = .4 // 초(seconds) 단위, 시간을 변수에 저장해서 사용하면 쉽게 관리 용이
 
 searchStarterEl.addEventListener('click', showSearch)
 searchCloserEl.addEventListener('click', hideSearch)
