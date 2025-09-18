@@ -4,6 +4,9 @@
 > 강의 수강을 통해 레이아웃, 반응형, DOM 조작, IntersectionObserver, 동적 렌더링 등을 학습했습니다.
 
 ---
+# 배포
+> https://apple-ipad-w65510tcs-huibeoms-projects.vercel.app/
+---
 
 ## 개요
 - Apple iPad 10.2 제품 페이지를 학습 목적으로 클론 제작
